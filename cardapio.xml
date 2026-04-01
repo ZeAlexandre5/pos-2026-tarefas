@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+
+    <prato id="p01">
+
+        <nome>torta de Banana</nome>
+
+        <descricao>Uma torta do jeitinho que sua vó fazia na infancia</descricao>
+
+        <ingredientes>
+            <ingrediente>Fermento</ingrediente>
+            <ingrediente>Farinha</ingrediente>
+            <ingrediente>Ovos</ingrediente>
+            <ingrediente>Leite</ingrediente>
+            <ingrediente>Banana</ingrediente>
+
+        </ingredientes>
+
+        <preco moeda="BRL">&reais;15,00</preco>
+
+        <preco moeda="USD">USD 2,90</preco>
+
+        <calorias>300</calorias>
+
+        <tempoPreparo>10min</tempoPreparo>
+
+    </prato>
+
+
+    <prato id="p02">
+
+        <nome>Fejoada</nome>
+
+        <descricao>Um prato tradicional brasileiro</descricao>
+
+        <ingredientes>
+            <ingrediente>feijão</ingrediente>
+            <ingrediente>carne seca</ingrediente>
+            <ingrediente>linguiça</ingrediente>
+            <ingrediente>panceta de porco</ingrediente>
+        </ingredientes>
+
+        <preco moeda="BRL">&reais; 20,00</preco>
+
+        <preco moeda="USD">USD 3,87</preco>
+
+        <calorias>320</calorias>
+
+        <tempoPreparo>30min</tempoPreparo>
+
+    </prato>
+
+
+    <prato id="p03">
+
+        <nome>Suco de Maracujá</nome>
+
+        <descricao>Um suco natural e refrescante</descricao>
+
+        <ingredientes>
+            <ingrediente>Maracujá</ingrediente>
+            <ingrediente>água</ingrediente>
+            <ingrediente>açúcar</ingrediente>
+
+        </ingredientes>
+
+        <preco moeda="BRL">&reais;2,00</preco>
+
+        <preco moeda="USD">USD 0,40</preco>
+
+        <calorias>5</calorias>
+
+        <tempoPreparo>2min</tempoPreparo>
+
+    </prato>
+
+    <prato id="p04">
+        <nome>Strogonoff</nome>
+        <descricao>Um prato Russo delicioso</descricao>
+
+        <ingredientes>
+            <ingrediente>Carne moída ou de Frango</ingrediente>
+            <ingrediente>Mostarda</ingrediente>
+            <ingrediente>Creme de leite</ingrediente>
+            <ingrediente>Cogumelo</ingrediente>
+            <ingrediente>Arroz</ingrediente>
+            <ingrediente>Batata palha</ingrediente>
+        </ingredientes>
+
+        <preco moeda="BRL">&reais; 18,00</preco>
+        <preco moeda="USD">USD 3,60</preco>
+
+        <calorias>400</calorias>
+        <tempoPreparo>10min</tempoPreparo>
+    </prato>
+
+    <prato id="p05">
+        <nome>Hambúrguer de Siri</nome>
+        <descricao>Comida favorita da Fenda do Biquini</descricao>
+        <ingredientes>
+            <ingrediente>Carne de Siri</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Molho</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Picles</ingrediente>
+        </ingredientes>
+
+        <preco moeda="BRL">&reais; 25,00</preco>
+        <preco moeda="USD">USD 5,00</preco>
+        
+        <calorias>550</calorias>
+        <tempoPreparo>15min</tempoPreparo>
+    </prato>
+</cardapio>
