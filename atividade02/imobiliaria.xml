@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (proprietario, endereco, valor, descricao, caracteristicas)>
+<!ELEMENT proprietario (nome, (email | telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, numero)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+<!ATTLIST valor moeda (BRL|USD) "BRL">
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>]>
+
+<imobiliaria>
+    <imovel>
+        <proprietario>
+            <nome>João Silva</nome>
+            <email>joao.silva@email.com</email>
+            <telefone>(11) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Cleiton Rasta</rua>
+            <bairro>Bairro Neto Volpi</bairro>
+            <cidade>Cidade Macedo</cidade>
+            <numero>1788</numero>
+        </endereco>
+        <valor moeda="BRL">500000.00</valor>
+        <descricao>Imóvel em excelente localização</descricao>
+        <caracteristicas>
+            <tamanho>100</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+    </imovel>
+    <imovel>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <email>maria.oliveira@email.com</email>
+            <telefone>(21) 99876-5432</telefone>
+            <telefone>(21) 98755-0921</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim Primavera</bairro>
+            <cidade>Cidade Macedo</cidade>
+            <numero>1234</numero>
+        </endereco>
+        <valor moeda="USD">150000.00</valor>
+        <descricao>Apartamento com vista para o mar</descricao>
+        <caracteristicas>
+            <tamanho>80</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+    </imovel>
+    <imovel>
+        <proprietario>
+            <nome>Carlos Pereira</nome>
+            <email>carlos.pereira@email.com</email>
+            <telefone>(31) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Cidade Macedo</cidade>
+            <numero></numero>
+        </endereco>
+        <valor moeda="BRL">300000.00</valor>
+        <descricao>Casa com jardim</descricao>
+        <caracteristicas>
+            <tamanho>120</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+    </imovel>
+    <imovel>
+        <proprietario>
+            <nome>José Santos</nome>
+            <email>Heitorzinho@gmail.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Vila Verde</bairro>
+            <cidade>Cidade Macedo</cidade>
+            <numero>5678</numero>
+        </endereco>
+        <valor moeda="USD">200000.00</valor>
+        <descricao>Apartamento moderno</descricao>
+        <caracteristicas>
+            <tamanho>90</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+    </imovel>
+    <imovel>
+        <proprietario>
+            <nome>Lucas Piscina</nome>
+            <telefone>(11) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Praia Azul</bairro>
+            <cidade>Cidade Macedo</cidade>
+            <numero>4321</numero>
+        </endereco>
+        <valor moeda="BRL">400000.00</valor>
+        <descricao>Casa com cachoeira</descricao>
+        <caracteristicas>
+            <tamanho>150</tamanho>
+            <numQuartos>5</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+    </imovel>
+
+</imobiliaria>

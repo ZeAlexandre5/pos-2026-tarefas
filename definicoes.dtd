@@ -10,3 +10,4 @@
 <!ELEMENT calorias (#PCDATA)>
 <!ELEMENT tempoPreparo (#PCDATA)>
 <!ENTITY reais "R$">
+
