@@ -1,0 +1,56 @@
+xmlns="http://www.w3.org/2001/XMLSchema"
+xmlns:cd="cardapio.xsd"
+
+
+
+<cardapio>
+    <prato>
+        <id>1</id>
+        <nome>Spaghetti Carbonara</nome>
+        <descricao>Traditional Italian pasta dish with eggs, cheese, pancetta, and pepper.</descricao>
+        <preco>25.00</preco>
+        <calorias>600</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+        <ingredientes>
+            <ingrediente>
+                <nome>Spaghetti</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Eggs</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Cheese</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Pancetta</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Pepper</nome>
+            </ingrediente>
+        </ingredientes>
+    </prato>
+
+    <prato>
+        <id>2</id>
+        <nome>Chicken Caesar Salad</nome>
+        <descricao>Fresh romaine lettuce with grilled chicken, croutons, Parmesan cheese, and Caesar dressing.</descricao>
+        <preco>20.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>20 minutos</tempoPreparo>
+        <ingredientes>
+            <ingrediente>
+                <nome>Romaine Lettuce</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Grilled Chicken</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Croutons</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Parmesan Cheese</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Caesar Dressing</nome>
+            </ingrediente>
+        </ingredientes>

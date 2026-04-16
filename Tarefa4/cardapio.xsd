@@ -1,0 +1,33 @@
+xmlns="http://www.w3.org/2001/XMLSchema"
+xmlns:cd="cardapio.xsd"
+
+
+<element name="cardapio">
+    <complexType>
+        <sequence>
+            <element name="prato" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="id" type="cd:integer"/>
+                        <element name="nome" type="string"/>
+                        <element name="descricao" type="string"/>
+                        <element name="preco" type="cd:decimal"/>
+                        <element name="calorias" type="cd:integer"/>
+                        <element name="tempoPreparo" type="cd:string"/>
+                        <element name="ingredientes">
+                            <complexType>
+                                <sequence>
+                                    <element name="ingrediente" maxOccurs="unbounded">
+                                        <complexType>
+                                            <sequence>
+                                                <element name="nome" type="string"/>
+                                            </sequence>
+                                        </complexType>
+                                    </element>
+                                </sequence>
+                            </complexType>
+                    </sequence>
+                </element>
+            </element>
+        </sequence>
+    </complexType>
