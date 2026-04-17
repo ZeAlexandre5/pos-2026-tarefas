@@ -1,5 +1,4 @@
-xmlns="http://www.w3.org/2001/XMLSchema"
-xmlns:cd="cardapio.xsd"
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="cardapio.xsd" xmlns:cd="http://www.example.com/cardapio" elementFormDefault="qualified">
 
 
 

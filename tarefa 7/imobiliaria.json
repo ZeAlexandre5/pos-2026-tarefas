@@ -1,0 +1,28 @@
+{
+    "imobiliaria":{
+        "imovel":[
+            {
+                "tipo":"casa",
+                "endereco":[
+                    "rua das flores",
+                    "123",
+                    "bairro jardim",
+                    "cidade são paulo"
+                ],
+                "preco":350000.00,
+                "caracteristicas":[
+                    "Casa com 3 quartos",
+                    "Casa com 2 banheiros",
+                    "tamanho do terreno 200m²"
+                ],
+                "descricao":"Casa espaçosa com jardim e garagem.",
+                "proprietario":{
+                    "nome":"João Silva",
+                    "Email":"ShaolinMatadordePorco@gmail.com",
+                    "telefone":"(11) 98765-4321"
+                }
+            }
+        ]
+
+    }
+}

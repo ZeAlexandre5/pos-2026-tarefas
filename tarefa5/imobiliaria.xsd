@@ -1,5 +1,11 @@
-xmlns="http://www.w3.org/2001/XMLSchema"
-xmlns:im="imobiliaria.xsd"
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="imobiliaria.xsd" xmlns:im="http://www.example.com/imobiliaria" elementFormDefault="qualified">
+    <simpleType name="decimal">
+        <restriction base="decimal">
+            <totalDigits value="10"/>
+            <fractionDigits value="2"/>
+        </restriction>
+    </simpleType>
+    
 
 <element name="imobiliaria">
     <complexType>
@@ -36,7 +42,10 @@ xmlns:im="imobiliaria.xsd"
                             <complexType>
                                 <sequence>
                                     <element name="nome" type="string"/>
-                                    <element name="telefone | Email" type="string"/>
+                                    <choice minOccurs="0">
+                                        <element name="Email" type="string"/>
+                                        <element name="telefone" type="string"/>
+                                    </choice>
                                 </sequence>
                             </complexType>
                     </sequence>
@@ -44,3 +53,5 @@ xmlns:im="imobiliaria.xsd"
             </element>
         </sequence>
     </complexType>
+</element>
+</schema>

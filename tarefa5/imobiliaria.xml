@@ -1,0 +1,115 @@
+xmlns="http://www.w3.org/2001/XMLSchema"
+xmlns:im="imobiliaria.xsd"
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento de 3 quartos com vista para o mar</descricao>
+        <valor>350000.00</valor>
+        <endereco>
+            <rua>Avenida Atlântica</rua>
+            <numero>1234</numero>
+            <bairro>Copacabana</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <caracteristica>
+                <tamanho>120.5</tamanho>
+                <numQuartos>3</numQuartos>
+                <numBanheiros>2</numBanheiros>
+            </caracteristica>
+        </caracteristicas>
+        <proprietario>
+            <nome>Maria Silva</nome>
+            <telefone>+55 21 99999-9999</telefone>
+        </proprietario>
+    </imovel>
+    <imovel>
+        <descricao>Casa de campo com piscina e jardim</descricao>
+        <valor>500000.00</valor>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <numero>567</numero>
+            <bairro>Jardim Botânico</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <caracteristica>
+                <tamanho>250.0</tamanho>
+                <numQuartos>4</numQuartos>
+                <numBanheiros>3</numBanheiros>
+            </caracteristica>
+        </caracteristicas>
+        <proprietario>
+            <nome>João Pereira</nome>
+            <telefone>+55 21 98888-8888</telefone>
+            <Email>joao.pereira@email.com</Email>
+        </proprietario>
+    </imovel>
+    <imovel>
+        <descricao>Loft moderno no centro da cidade</descricao>
+        <valor>450000.00</valor>
+        <endereco>
+            <rua>Rua do Centro</rua>
+            <numero>789</numero>
+            <bairro>Centro</bairro>
+            <cidade>Rio de Janeiro</cidade>
+        </endereco>
+        <caracteristicas>
+            <caracteristica>
+                <tamanho>80.0</tamanho>
+                <numQuartos>1</numQuartos>
+                <numBanheiros>1</numBanheiros>
+            </caracteristica>
+        </caracteristicas>
+        <proprietario>
+            <nome>Ana Costa</nome>
+            <telefone>+55 21 97777-7777</telefone>
+            <telefone>+55 21 97756-7777</telefone>
+            <Email>ana.costa@email.com</Email>
+        </proprietario>
+    </imovel>
+    <imovel>
+        <descricao>Casa de praia com acesso direto ao mar</descricao>
+        <valor>600000.00</valor>
+        <endereco>
+            <rua>Rua do Mar</rua>
+            <numero>321</numero>
+            <bairro>Praia do Forte</bairro>
+            <cidade>Salvador</cidade>
+        </endereco>
+        <caracteristicas>
+            <caracteristica>
+                <tamanho>200.0</tamanho>
+                <numQuartos>5</numQuartos>
+                <numBanheiros>4</numBanheiros>
+            </caracteristica>
+        </caracteristicas>
+        <proprietario>
+            <nome>Carlos Souza</nome>
+            <telefone>+55 71 96666-6666</telefone>
+            <Email>carlos.souza@email.com</Email>
+        </proprietario>
+    </imovel>
+    <imovel>
+        <descricao>Apartamento compacto próximo ao metrô</descricao>
+        <valor>200000.00</valor>
+        <endereco>
+            <rua>Rua do Metrô</rua>
+            <numero>456</numero>
+            <bairro>Vila Mariana</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <caracteristica>
+                <tamanho>50.0</tamanho>
+                <numQuartos>1</numQuartos>
+                <numBanheiros>1</numBanheiros>
+            </caracteristica>
+        </caracteristicas>
+        <proprietario>
+            <nome>Fernanda Lima</nome>
+            <telefone>+55 11 95555-5555</telefone>
+            <Email>fernanda.lima@email.com</Email>
+        </proprietario>
+    </imovel>
+</imobiliaria>

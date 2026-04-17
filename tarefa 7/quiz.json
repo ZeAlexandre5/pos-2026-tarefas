@@ -1,0 +1,34 @@
+{
+    "quiz":{
+        "disciplina":"Matemática",
+        "professor":{
+            "nome":"Gabriel Garcia",
+            "matricula":"123456"
+        },
+
+        "turma":"2026",
+        "data":"2024-06-15",
+        "questoes":[
+            {
+                "enunciado":"Qual é a fórmula para calcular a área de um círculo?",
+                "alternativas":[
+                    "A) A = πr²",
+                    "B) A = 2πr",
+                    "C) A = πd",
+                    "D) A = r²"
+                ],
+                "resposta_correta":"A) A = πr²"
+            },
+            {
+                "enunciado":"Qual é o valor de x na equação 2x + 3 = 7?",
+                "alternativas":[
+                    "A) x = 1",
+                    "B) x = 2",
+                    "C) x = 3",
+                    "D) x = 4"
+                ],
+                "resposta_correta":"B) x = 2"
+            }
+        ]
+    }
+}

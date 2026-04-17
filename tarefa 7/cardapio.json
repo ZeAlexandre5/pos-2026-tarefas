@@ -1,0 +1,51 @@
+{
+    "cardapio": {
+        "prato": [
+            {
+                "nome": "Feijoada",
+                "preco": 25.50,
+                "descricao": "Feijoada completa com arroz, farofa e couve.",
+                "calorias": 800,
+                "tempoPreparo": "60 minutos",
+                "id": "001",
+                "ingredientes": [
+                    "Feijão preto",
+                    "Carne seca",
+                    "Linguiça",
+                    "Costelinha de porco",
+                    "Arroz",
+                    "Farofa",
+                    "Couve"
+                ]
+
+            },
+            {
+                "nome": "Churrasco",
+                "preco": 30.00,
+                "descricao": "Churrasco de carne bovina com farofa e legumes.",
+                "calorias": 500,
+                "tempoPreparo": "45 minutos",
+                "id": "002",
+                "ingredientes": [
+                    "Carne bovina",
+                    "Farofa",
+                    "Legumes"
+                ]
+            },
+            {
+                "nome": "Lasanha",
+                "preco": 20.00,
+                "descricao": "Lasanha à bolonhesa com queijo parmesão.",
+                "calorias": 400,
+                "tempoPreparo": "50 minutos",
+                "id": "003",
+                "ingredientes": [
+                    "Massa de lasanha",
+                    "Carne moída",
+                    "Molho de tomate",
+                    "Queijo parmesão"
+                ]
+            }
+        ]
+    }
+}
