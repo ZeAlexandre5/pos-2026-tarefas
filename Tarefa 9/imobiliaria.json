@@ -1,0 +1,113 @@
+[
+    {
+        "descricao": "Apartamento de 3 quartos com vista para o mar",
+        "valor": "350000.00",
+        "endereco": {
+            "rua": "Avenida Atlântica",
+            "numero": "1234",
+            "bairro": "Copacabana",
+            "cidade": "Rio de Janeiro"
+        },
+        "caracteristicas": {
+            "tamanho": "120.5",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+        },
+        "proprietario": {
+            "nome": "Maria Silva",
+            "telefones": [
+                "+55 21 99999-9999"
+            ],
+            "email": ""
+        }
+    },
+    {
+        "descricao": "Casa de campo com piscina e jardim",
+        "valor": "500000.00",
+        "endereco": {
+            "rua": "Rua das Flores",
+            "numero": "567",
+            "bairro": "Jardim Botânico",
+            "cidade": "Rio de Janeiro"
+        },
+        "caracteristicas": {
+            "tamanho": "250.0",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+        },
+        "proprietario": {
+            "nome": "João Pereira",
+            "telefones": [
+                "+55 21 98888-8888"
+            ],
+            "email": "joao.pereira@email.com"
+        }
+    },
+    {
+        "descricao": "Loft moderno no centro da cidade",
+        "valor": "450000.00",
+        "endereco": {
+            "rua": "Rua do Centro",
+            "numero": "789",
+            "bairro": "Centro",
+            "cidade": "Rio de Janeiro"
+        },
+        "caracteristicas": {
+            "tamanho": "80.0",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "proprietario": {
+            "nome": "Ana Costa",
+            "telefones": [
+                "+55 21 97777-7777",
+                "+55 21 97756-7777"
+            ],
+            "email": "ana.costa@email.com"
+        }
+    },
+    {
+        "descricao": "Casa de praia com acesso direto ao mar",
+        "valor": "600000.00",
+        "endereco": {
+            "rua": "Rua do Mar",
+            "numero": "321",
+            "bairro": "Praia do Forte",
+            "cidade": "Salvador"
+        },
+        "caracteristicas": {
+            "tamanho": "200.0",
+            "numQuartos": "5",
+            "numBanheiros": "4"
+        },
+        "proprietario": {
+            "nome": "Carlos Souza",
+            "telefones": [
+                "+55 71 96666-6666"
+            ],
+            "email": "carlos.souza@email.com"
+        }
+    },
+    {
+        "descricao": "Apartamento compacto próximo ao metrô",
+        "valor": "200000.00",
+        "endereco": {
+            "rua": "Rua do Metrô",
+            "numero": "456",
+            "bairro": "Vila Mariana",
+            "cidade": "São Paulo"
+        },
+        "caracteristicas": {
+            "tamanho": "50.0",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "proprietario": {
+            "nome": "Fernanda Lima",
+            "telefones": [
+                "+55 11 95555-5555"
+            ],
+            "email": "fernanda.lima@email.com"
+        }
+    }
+]

@@ -1,30 +1,27 @@
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="cardapio.xsd" xmlns:cd="http://www.example.com/cardapio" elementFormDefault="qualified">
-
-
-
+<?xml version="1.0" encoding="utf-8"?>
 <cardapio>
     <prato>
         <id>1</id>
         <nome>Spaghetti Carbonara</nome>
-        <descricao>Traditional Italian pasta dish with eggs, cheese, pancetta, and pepper.</descricao>
+        <descricao>Prato tradicional italiano com ovos, queijo, pancetta e pimenta.</descricao>
         <preco>25.00</preco>
         <calorias>600</calorias>
-        <tempoPreparo>30 minutos</tempoPreparo>
+        <tempoPreparo>30</tempoPreparo>
         <ingredientes>
             <ingrediente>
                 <nome>Spaghetti</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Eggs</nome>
+                <nome>Ovos</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Cheese</nome>
+                <nome>Queijo</nome>
             </ingrediente>
             <ingrediente>
                 <nome>Pancetta</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Pepper</nome>
+                <nome>Pimenta</nome>
             </ingrediente>
         </ingredientes>
     </prato>
@@ -32,24 +29,26 @@
     <prato>
         <id>2</id>
         <nome>Chicken Caesar Salad</nome>
-        <descricao>Fresh romaine lettuce with grilled chicken, croutons, Parmesan cheese, and Caesar dressing.</descricao>
+        <descricao>Alface romana fresca com frango grelhado, croutons, queijo Parmesan e molho Caesar.</descricao>
         <preco>20.00</preco>
         <calorias>450</calorias>
-        <tempoPreparo>20 minutos</tempoPreparo>
+        <tempoPreparo>20</tempoPreparo>
         <ingredientes>
             <ingrediente>
-                <nome>Romaine Lettuce</nome>
+                <nome>Alface Romana</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Grilled Chicken</nome>
+                <nome>Frango Grelhado</nome>
             </ingrediente>
             <ingrediente>
                 <nome>Croutons</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Parmesan Cheese</nome>
+                <nome>Queijo Parmesan</nome>
             </ingrediente>
             <ingrediente>
-                <nome>Caesar Dressing</nome>
+                <nome>Molho Caesar</nome>
             </ingrediente>
         </ingredientes>
+    </prato>
+</cardapio>

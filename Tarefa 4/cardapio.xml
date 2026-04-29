@@ -1,0 +1,49 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="cardapio.xsd" xmlns:cd="http://www.example.com/cardapio" elementFormDefault="qualified">
+
+
+
+<cardapio>
+    <prato>
+        <id>1</id>
+        <nome>Bolo de Fubá</nome>
+        <descricao>Delicioso bolo feito com fubá, leite e ovos.</descricao>
+        <preco>15.00</preco>
+        <calorias>400</calorias>
+        <tempoPreparo>45 minutos</tempoPreparo>
+        <ingredientes>
+            <ingrediente>
+                <nome>Fubá</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Leite</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Ovos </nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Açúcar</nome>
+            </ingrediente>
+        </ingredientes>
+    </prato>
+
+    <prato>
+        <id>2</id>
+        <nome>Arroz com ovos</nome>
+        <descricao>Arroz cozido com ovos fritos e temperos.</descricao>
+        <preco>20.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>20 minutos</tempoPreparo>
+        <ingredientes>
+            <ingrediente>
+                <nome>Arroz</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Ovos</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Sal</nome>
+            </ingrediente>
+            <ingrediente>
+                <nome>Pimenta</nome>
+            </ingrediente>
+        </ingredientes>
